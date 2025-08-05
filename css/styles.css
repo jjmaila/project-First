@@ -52,7 +52,7 @@ footer {
 
 p{
   color: black;
-  padding: 0 15px;
+  padding: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -69,6 +69,16 @@ p{
     gap: 5rem;   
 }
 
+
+.wrapper{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;   
+}
+
 .intro{
     flex: 1;
 }
@@ -76,7 +86,7 @@ p{
 
 img{
   width: 100%;
-  max-width: 400px;
+  max-width: 200px;
   object-fit: cover;
   vertical-align: middle;
 }
