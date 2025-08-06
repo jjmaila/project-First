@@ -43,11 +43,12 @@ h1, h2 {
   color: #004080;
 }
 
-footer {
+footer p {
   text-align: center;
   padding: 20px;
   background-color: #004080;
   color: white;
+
 }
 
 p{
@@ -57,7 +58,7 @@ p{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  gap: 5rem;   
+  gap: 4rem;   
 }
 
 .h1{
@@ -79,8 +80,10 @@ p{
     gap: 5rem;   
 }
 
-.intro{
-    flex: 1;
+.intro h1{
+  flex: 1;
+  gap: 10rem;
+
 }
 
 
