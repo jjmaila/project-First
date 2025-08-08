@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color:#7fffd4;
-  color: #333;
+  color: 004080;
 }
 
 .container {
@@ -234,7 +234,7 @@ form button[type="submit"]:hover {
 }
 
 footer {
-    background: #333;
+    background: #004080;
     color: #fff;
     text-align: center;
     padding: 20px 0;
