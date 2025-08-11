@@ -80,17 +80,16 @@ p{
     gap: 5rem;   
 }
 
-.intro h1{
-  flex: 1;
-  gap: 10rem;
- 
-}
-
-
-img{
-  width: 100%;
-  max-width: 200px;
-  object-fit: cover;
-  vertical-align: middle;
+.footer-content{
+    background:#004080;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 15px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem; 
 }
 
