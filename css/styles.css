@@ -6,13 +6,6 @@ body {
   color: #333;
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -84,8 +77,8 @@ p{
     background:#004080;
     color: #fff;
     text-align: center;
-    margin-top: 30px;
-    padding: 0 15px;
+    margin-top: 40px;
+    padding: 0 50px;
     padding: 20px 0;
     display: flex;
     align-items: center;

@@ -6,13 +6,6 @@ body {
   color: #333;
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
 nav {
   display: flex;
   flex-direction: row;
@@ -55,15 +48,8 @@ body {
     color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px 0;
-}
-
 h1, h2, h3 {
-    color: black;
+    color: white;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -256,14 +242,12 @@ form button[type="submit"]:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-  padding: 4px 17px;
-}
-
 img.profile-image {
-  width: 1000px;
-  height: 800px;
-  object-fit: cover;
-  border-radius: 8px;
+    width: 100%;        
+    height: auto;        
+    max-height: 800px;   
+    object-fit: cover;   
+    border-radius: 6px;  
+    display: block;      
 }
 
